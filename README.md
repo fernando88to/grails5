@@ -6,4 +6,4 @@
 1. Build application using command `./gradlew build`.
 2. Build Docker image using command `docker build -t issue12547:0.1 .`.
 3. Start a new Docker container using command `docker run -it --rm -p 8080:8080 issue12547:0.1`.
-4. Call http://localhost:8080/beer return one register
+4. Access http://localhost:8080
